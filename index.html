@@ -249,10 +249,21 @@
 						</li>
 				    </ul>
 				</nav>
+
+
 			    <form action="" class="footer__form">
+
+		<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="test">
+		<input type="hidden" name="admin_email" value="vladiktrushov4@gmail.com">
+		<input type="hidden" name="form_subject" value="1">
+		<!-- END Hidden Required Fields -->
 			    	<label class="footer__form-label">Связаться <br>
 					с нами</label>
-			    	<input class="footer__form-input" placeholder="Задать вопрос"></input>
+			    	<input class="footer__form-input" placeholder="Задать вопрос"></input><br>
+			    	<input class="footer__form-input" type="text" name="Name" placeholder="You name..." required><br>
+		<input class="footer__form-input" type="text" name="E-mail" placeholder="You E-mail..." required><br>
+		<input class="footer__form-input" type="text" name="Phone" placeholder="You phone..."><br>
 			    	<button class="footer__form-btn" type="submit">Отправить</button>
 			    </form>
 			</div>
